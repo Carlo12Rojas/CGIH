@@ -19,14 +19,14 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Carga de Modelos.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Shader\P5\modelLoading.frag" />
-    <None Include="Shader\P5\modelLoading.vs" />
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="Shader_P5.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Texturizado.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shader\P6\lamp.frag" />
+    <None Include="Shader\P6\lamp.vs" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
