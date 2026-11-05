@@ -19,6 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Shader.h" />
+  </ItemGroup>
+  <ItemGroup>
     <None Include="Shader\core.frag" />
     <None Include="Shader\core.vs" />
     <None Include="Shader\lamp.frag" />
@@ -29,10 +32,7 @@
     <None Include="Shader\modelLoading.vs" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Iluminacion.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Shader.h" />
+    <ClCompile Include="fuentesDeLuz.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

@@ -18,6 +18,11 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Shader.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
     <None Include="Shader\core.frag">
       <Filter>Archivos de origen\Shader</Filter>
     </None>
@@ -44,13 +49,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Iluminacion.cpp">
+    <ClCompile Include="fuentesDeLuz.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Shader.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>
