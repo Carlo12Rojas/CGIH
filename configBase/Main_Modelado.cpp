@@ -65,7 +65,7 @@ int main() {
 	glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
 
 	// Build and compile our shader program
-	Shader ourShader("Shader/P3/core.vs", "Shader/P3/core.frag");
+	Shader ourShader("Shader/core.vs", "Shader/core.frag");
 
 	// Set up vertex data (and buffer(s)) and attribute pointers
 	// use with Perspective Projection
