@@ -1,4 +1,12 @@
-.vs
-Debug
-configInicial/Debug
-External Libraries/
+.vs/
+/Debug/
+/Release/
+/x64/
+/configBase/Debug/
+/configBase/Release/
+/configBase/x64/
+*.ipch
+*.pdb
+*.ilk
+!/External Libraries/assimp/lib/*.pdb
+!/External Libraries/assimp/lib/*.ilk
