@@ -55,7 +55,7 @@ int main() {
 	// Define las dimensiones del viewport
 	//glViewport(0, 0, screenWidth, screenHeight);
 
-    Shader ourShader("Shader/P1/core.vs", "Shader/P1/core.frag");
+    Shader ourShader("Shader/core.vs", "Shader/core.frag");
 
 	// Set up vertex data (and buffer(s)) and attribute pointers
 	float vertices[] = {

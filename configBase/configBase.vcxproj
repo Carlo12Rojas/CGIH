@@ -19,14 +19,14 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Shader_P5.h" />
+    <ClInclude Include="Shader.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Texturizado.cpp" />
+    <None Include="Shader\core.frag" />
+    <None Include="Shader\core.vs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Shader\P6\lamp.frag" />
-    <None Include="Shader\P6\lamp.vs" />
+    <ClCompile Include="Main_Dibujo2D.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
