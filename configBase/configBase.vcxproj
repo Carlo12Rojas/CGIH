@@ -19,14 +19,14 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Shader\P2\core.frag" />
-    <None Include="Shader\P2\core.vs" />
+    <ClCompile Include="Carga de Modelos.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Modelado_Jerarquico.cpp" />
+    <None Include="Shader\P5\modelLoading.frag" />
+    <None Include="Shader\P5\modelLoading.vs" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Shader_P4.h" />
+    <ClInclude Include="Shader_P5.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
