@@ -9,7 +9,7 @@
 #include <GLFW/glfw3.h>
 
 // GL includes
-#include "Shader_P5.h"
+#include "Shader.h"
 #include "Camera.h"
 #include "Model.h"
 
@@ -98,9 +98,9 @@ int main()
     glEnable(GL_DEPTH_TEST);
 
     // Setup and compile our shaders
-    Shader shader("Shader/P7/modelLoading.vs", "Shader/P7/modelLoading.frag");
-    Shader lampshader("Shader/P7/lamp.vs", "Shader/P7/lamp.frag");
-    Shader lightingShader("Shader/P7/lighting.vs", "Shader/P7/lighting.frag");
+    Shader shader("Shader/modelLoading.vs", "Shader/modelLoading.frag");
+    Shader lampshader("Shader/lamp.vs", "Shader/lamp.frag");
+    Shader lightingShader("Shader/lighting.vs", "Shader/lighting.frag");
 
 
 
