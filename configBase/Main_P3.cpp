@@ -47,7 +47,7 @@ int main() {
     glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
 
     // Build and compile our shader program
-    Shader ourShader("Shader/core.vs", "Shader/core.frag");
+    Shader ourShader("Shader/P2/core.vs", "Shader/P2/core.frag");
 
     // Set up vertex data (and buffer(s)) and attribute pointers
     GLfloat vertices[] = {

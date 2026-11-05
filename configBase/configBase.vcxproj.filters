@@ -23,15 +23,15 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Shader\core.frag">
+    <None Include="Shader\P2\core.frag">
       <Filter>Archivos de origen\Shader</Filter>
     </None>
-    <None Include="Shader\core.vs">
+    <None Include="Shader\P2\core.vs">
       <Filter>Archivos de origen\Shader</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Main_P3.cpp">
+    <ClCompile Include="Main_Dibujo2D.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
   </ItemGroup>
