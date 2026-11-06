@@ -23,12 +23,6 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Shader\core.frag">
-      <Filter>Archivos de origen\Shader</Filter>
-    </None>
-    <None Include="Shader\core.vs">
-      <Filter>Archivos de origen\Shader</Filter>
-    </None>
     <None Include="Shader\lamp.frag">
       <Filter>Archivos de origen\Shader</Filter>
     </None>
@@ -41,15 +35,9 @@
     <None Include="Shader\lighting.vs">
       <Filter>Archivos de origen\Shader</Filter>
     </None>
-    <None Include="Shader\modelLoading.frag">
-      <Filter>Archivos de origen\Shader</Filter>
-    </None>
-    <None Include="Shader\modelLoading.vs">
-      <Filter>Archivos de origen\Shader</Filter>
-    </None>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Maquina de estados.cpp">
+    <ClCompile Include="KeyFrames.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
   </ItemGroup>
